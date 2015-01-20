@@ -10,6 +10,7 @@ import UIKit
 //Basic Math
 var x: Int?// Declare an optional Int variable
 
+
 //An optional with a value is Some <value>, nil is None:
 
 //Those are optionals. Optional is basically defined like this:
@@ -32,6 +33,8 @@ x = y // Assign the value of x to y
 var a = -10 // Unary - operator used to assign -10 to variable x
 a = a - 5 // Subtraction operator. Subtracts 5 from x
 
+
+
 //Increment Decrement
 
 var z:Int=20
@@ -39,13 +42,14 @@ var z:Int=20
 z = z + 1 // Increase value of variable x by 1
 z = z - 1 // Decrease value of variable x by 1
 
+
 //Comparison
 
 var intVal1:Int=20
 var intVal2:Int=70
 
 
-if intVal1 <  intVal2 {
+if intVal1 > intVal2 {
     println("value is smaller")
 }
 else
@@ -56,6 +60,10 @@ else
 //Incremental Loop by 1
 
 for var i = 5; i < 75; ++i {
+    println("Value of i is \(i)")
+}
+
+for var i = 75; i > 5 ; --i {
     println("Value of i is \(i)")
 }
 
