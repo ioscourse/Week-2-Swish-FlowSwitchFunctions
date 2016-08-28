@@ -50,27 +50,27 @@ var intVal2:Int=70
 
 
 if intVal1 > intVal2 {
-    println("value is smaller")
+    print("value is smaller")
 }
 else
 {
-     println("value is larger")
+     print("value is larger")
 }
 
 //Incremental Loop by 1
 
 for var i = 5; i < 75; ++i {
-    println("Value of i is \(i)")
+    print("Value of i is \(i)")
 }
 
 for var i = 75; i > 5 ; --i {
-    println("Value of i is \(i)")
+    print("Value of i is \(i)")
 }
 
 //Incremental Loop by 2
 
 for var i = 5; i < 75; i=i+2 {
-    println("Value of i is \(i)")
+    print("Value of i is \(i)")
 }
 
 //Switch
@@ -80,19 +80,19 @@ var value = 1
 switch (value)
 {
 case 0, 1, 2:
-    println("zero, one or two")
+    print("zero, one or two")
     
 case 3:
-    println("three")
+    print("three")
     
 case 4:
-    println("four")
+    print("four")
     
 case 5:
-    println("five")
+    print("five")
     
 default:
-    println("Integer out of range")
+    print("Integer out of range")
 }
 
 //Range
@@ -102,16 +102,16 @@ var temperature = 32
 switch (temperature)
 {
 case 0...49:
-    println("Cold")
+    print("Cold")
     
 case 50...79:
-    println("Warm")
+    print("Warm")
     
 case 80...110:
-    println("Hot")
+    print("Hot")
     
 default:
-    println("Temperature out of range")
+    print("Temperature out of range")
 }
 
 //Where
@@ -121,16 +121,16 @@ var temp = 54
 switch (temp)
 {
 case 0...49 where temp % 2 == 0:
-    println("Cold and even")
+    print("Cold and even")
     
 case 50...79 where temp % 2 == 0:
-    println("Warm and even")
+    print("Warm and even")
     
 case 80...110 where temp % 2 == 0:
-    println("Hot and even")
+    print("Hot and even")
     
 default:
-    println("Temperature out of range or odd")
+    print("Temperature out of range or odd")
 }
 
 
