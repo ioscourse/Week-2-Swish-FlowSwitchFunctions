@@ -59,19 +59,20 @@ else
 
 //Incremental Loop by 1
 
-for var i = 5; i < 75; ++i {
+for i in stride(from: 1, to: 75, by:5) {
     print("Value of i is \(i)")
 }
 
-for var i = 75; i > 5 ; --i {
+for i in stride(from: 1, to: 75, by:-1) {
     print("Value of i is \(i)")
 }
 
 //Incremental Loop by 2
 
-for var i = 5; i < 75; i=i+2 {
+for i in stride(from: 1, to: 75, by:2) {
     print("Value of i is \(i)")
 }
+
 
 //Switch
 
